@@ -1,0 +1,129 @@
+.footer{
+    background-color: #010000;
+    color: #fff;
+    padding: 0 159px;
+    
+    border-bottom: 1px solid #fdb866;
+}
+.footer-body-top{
+    display: flex;
+    padding: 50px 0 60px;
+    justify-content: space-between;
+}
+.footer-body-top img{
+    width: 200px;
+    height: 127px;
+}
+.footer-body-top-contact {
+    width: 390px;
+    height: 360px;
+}
+.footer-body-top-contact{
+    background-color: #262626;
+    padding: 15px;
+    font-family: sans-serif;
+    margin: 0 30px;
+}
+.footer-body-top-contact h3{
+    color: #fdb866;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.footer-body-top-contact p{
+    margin: 30px 0 10px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.footer-body-top-contact span{
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.footer-body-top-contact a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-body-top-contact a:hover{
+    color: #fdb866;
+}
+.footer-body-top-ft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer-body-top-ft img{
+    width: 110px;
+    height: 41px;
+}
+.footer-body-top-ft a img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.footer-body-top-ft a{
+    display: flex;
+    align-items: center ;
+    text-decoration: none;
+    padding: 2px 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 20px;
+}
+.footer-body-top-ft .fb{
+    background-color: #3b5998;
+    
+}
+.footer-body-top-ft .yt{
+    background-color: #b90c06;
+}
+.footer-body-top ul h3{
+    margin-bottom: 10px;
+    color: #fdb866;
+}
+.footer-body-top ul {
+    width: 14%;
+}
+.footer-body-top ul span{
+    padding: 5px 20px;
+    background-color: #fdb866;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #010000;
+}
+.footer-body-top ul span b{
+    padding-left: 5px;
+    font-size: 16px;
+}
+.footer-body-top ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footer-body-top ul li a{
+    text-decoration: none;
+    color: #c1c1c1;
+    font-family: sans-serif;
+}
+.footer-body-bottom{
+    background-color: #010000;
+    color: #c1c1c1;
+    height: 48px;
+    line-height: 48px;
+
+}
+.footer-body-bottom b{
+    font-size: 20px;
+}
+.footer-body-bottom span{
+    font-size: 14px;
+}
+.footer-body-bottom i{
+    font-size: 12px;
+}
+.footer-body-bottom p{
+    margin-left: 200px;
+}

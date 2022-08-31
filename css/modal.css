@@ -1,0 +1,12 @@
+.modal-back-top{
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    background-color: #fdb866;
+    border-radius: 5px;
+    transform: all scale(0.5s);
+}
+.modal-back-top i{
+    color: #fff;
+    padding: 20px;
+}

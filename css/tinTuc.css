@@ -1,0 +1,119 @@
+body{
+    background-color: #010000;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 159px;
+}
+.bc-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.bc-menu-left a{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.bc-menu-left a:hover{
+    color: #fdb866;
+}
+.bc-menu-right ul{
+    display: flex;
+    background: #fdb866;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+.bc-menu-right ul span{
+    border-left: 1px solid;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.bc-menu-right ul li a{
+    font-size: 12px;
+    color: #000;
+}
+/* ---------------content------------ */
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    width: 73%;
+}
+.content-left-items{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.content-left-items-img{
+    width: 50%;
+}
+.content-left-items-img img{
+    max-width: 81.5%;
+}
+
+.content-left-items-body {
+    width: 50%;
+    color: #fff;
+    text-align: justify;
+    
+}
+.content-left-items-body a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+.content-left-items-body a:hover{
+    color: #fdb866;
+}
+.content-left-items-body p{
+    border-top: 1px solid #3d3d3d;
+    margin: 10px 0 20px;
+    padding-top: 10px;
+    line-height: 1.4 ;
+}
+.content-left-items-body small{
+    font-size: 10px;
+    color: #ffffff8c;
+}
+.content-left-items-body li{
+    text-align: right;
+    padding-top: 15px;
+}
+
+
+
+.content-right{
+    width: 23%;
+}
+.content-right img{
+    max-width: 100%;
+}
+.content-right h3{
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+}
+.content-right-body{
+    background: #edf3e7;
+    padding: 10px;
+}
+.content-right-body p{
+    text-align: justify;
+    padding: 10px 0;
+}
+.content-right-body a{
+    color: #000;
+}

@@ -1,0 +1,141 @@
+html{
+    background-color: #010000;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bc-home{
+    padding: 8px 0;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #272727;
+}
+.bc-home-content{
+    padding: 0 159px;
+}
+.bc-home-content a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.product{
+    padding: 0 159px;
+}
+.name-category{
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+.product ul{
+    display: flex;
+    list-style: none;
+}
+.product ul li {
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.product ul li span{
+    background: #f9af4b;
+    font-size: 14px;
+}
+.product ul li a,
+.product ul li span{
+    padding: 5px 20px;
+    
+}
+.product ul li a{
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+}
+.product ul li a:hover{
+    background: #f9af4b;
+
+    
+}
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-wrapper-items{
+    width: 24%;
+    color: #fff;
+    border: 1px solid #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.product-wrapper-items-img {
+    width: 100%;
+    padding: 20px 0;
+    height: 300px;
+    float: left;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.product-wrapper-items img{
+    width: 260px;
+    height: 260px;
+    margin-bottom: 20px;
+}
+.product-wrapper-items:hover img{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.product-wrapper-items:hover .product-wrapper-items-body{
+    background: #5d4d30;
+}
+.product-wrapper-items-body {
+    padding:20px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 35%;
+}
+.product-wrapper-items p{
+    margin-bottom: 20px;
+}
+.product-wrapper-items span{
+    color: #fdb866;
+}
+.stt-page{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.content-footer{
+    padding: 0 159px;
+    color: #fff;
+}
+.content-footer p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    height: 250px;
+}
+.btn{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.btn a{
+    
+    background: #000000;
+    color: #fdb866;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #fdb866;
+    text-transform: uppercase;
+}
